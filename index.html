@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Zacharias Dimitrakoudis - Resume">
+        <meta name="keywords" content="Senior Software Engineer, Enterprise Architecture, Python, Java, PHP, CQRS, DDD, Event Sourcing, Hexagonal, Ports & Adapters">
+        <!-- Title -->
+        <title>Zacharias Dimitrakoudis - Resume</title>
+        <!-- Favicon --> 
+		<link rel="icon" href="images/fav.png">
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800">
+        <!-- Font Awesome Css -->
+        <link rel="stylesheet" href="css/vendor/font-awesome.min.css">
+		<!-- Flaticon -->
+        <link rel="stylesheet" href="fonts/flaticon.css">
+        <!-- Bootstrap 4 Css -->
+        <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+		<!-- Animations Css -->
+        <link rel="stylesheet" href="css/vendor/animations.css">
+		<!-- Slick Css -->
+        <link rel="stylesheet" href="css/vendor/slick.min.css">
+        <!-- Main Style Css -->
+        <link rel="stylesheet" href="css/main/homepages.css">
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+		<!-- Moderniz Js -->
+		<script src="js/modernizr.custom.js"></script>
+    </head>
+    <body>
+        <!-- ========== Start Loading ========== -->
+        <div class="preloader">
+            <div class="loading-inner"></div>
+        </div>
+        <!-- ========== End Loading ========== -->
+		
+		<ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <!-- ========== Start Navbar ========== -->
+
+		<div class="vertical-nav">
+			<!-- Intro -->
+			<h2>Zacharias Dimitrakoudis</h2>
+			<p>Senior Software Engineer</p>
+			<!-- Mini Menu -->
+            <div class="mini-menu">
+				<ul class="list-unstyled">
+					<li class="active"><a class="pt-trigger" href="#home"><i class="flaticon-homepage"></i>Home</a></li>
+					<li><a class="pt-trigger" href="#about"><i class="flaticon-user"></i>About me</a></li>
+					<li><a class="pt-trigger" href="#experience"><i class="flaticon-coding-1"></i>Experience</a></li>
+					<li><a class="pt-trigger" href="#education"><i class="flaticon-leaf"></i>Education</a></li>
+					<li><a class="pt-trigger" href="#qualifications"><i class="flaticon-blogging"></i>Qualifications</a></li>
+					<li><a class="pt-trigger" href="#contact"><i class="flaticon-headphones"></i>Contact me</a></li>
+				</ul>
+			</div>
+			<div class="line"></div>
+			<span class="close-nav"><i class="fa fa-close"></i></span>
+        </div>
+		<!-- Mobile Menu -->
+		<div class="mobile-menu">
+			<button class="toggle-menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                <svg width="50" height="50" viewBox="0 0 100 100">
+                    <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                    <path class="line line2" d="M 20,50 H 80" />
+                    <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                </svg>
+            </button>
+			<div class="info-right">
+				<img class="img-fluid" src="https://via.placeholder.com/70x70" alt="" style="visibility: hidden;">
+			    <a href="#" class="site-logo">My Resume</a>
+			</div>
+		</div>
+        
+        <!-- ========== End Navbar ========== -->
+		
+		<div class="main-content subpages">
+			
+			<!-- ========== Start Home ========== -->
+
+			<section class="home pt-page" data-id="home">
+				<div class="container-fluid area-bg">
+					<div class="home-intro d-flex h-100 align-items-center">
+						<div class="home-info">
+							<h1 style="text-transform: none; font-size: 39px;"><span>I'm </span><span style="color: #ff8f8f;">Zacharias Dimitrakoudis</span></h1>
+							<p>It's nice to e-meet you! I'm Zacharias Dimitrakoudis, a Senior Software Engineer / Consultant with Bachelor degree in Software Engineering & Master degree in Applied Informatics.</p>
+							<a href="#about" class="main-btn">Read more</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ========== End Home ========== -->
+
+			<!-- ========== Start About ========== -->
+
+			<section class="about area-bg pt-page" data-id="about">
+				<!-- ========== Start About Me ========== -->
+				<div class="about-me container">
+					<div class="main-title">
+						<h2><span>About Me</span></h2>
+					</div>
+					<div class="row align-items-center">
+						<div class="col-xl-3 col-md-4">
+							<div class="about-image">
+								<img class="img-fluid" style="width: 267px;" src="images/me.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-xl-9 col-md-8">
+							<div class="about-info">
+								<h3>Greetings,</h3>
+								<p style="text-align: justify;">
+									My name is Dimitrakoudis Zacharias and I'm an
+									experienced Software Engineer with a demonstrated history of working in the information technology and services industry,
+									on development and improvement of web provided software products. Most important for me, is the growth of my professional
+									career. For over 9 years, my responsibility is to keep evolving in enterprise architectures and advanced development techniques,
+									to design and provide well-structured, maintainable and efficient solutions.
+								</p>
+							</div>
+						</div>
+					</div> 
+				</div>
+				<!-- ========== End About Me ========== -->
+
+				<!-- ========== Start Services ========== -->
+				<div class="services container">
+					<div class="main-title">
+						<h3>What I Do</h3>
+					</div>
+					<div class="row">
+						<div class="col-xl-4 col-sm-6">
+							<div class="service">
+								<div class="service-icon">
+									<i class="flaticon-idea"></i>
+								</div>
+								<h4>Enterprise architecture</h4>
+								<p>DDD, CQRS, Event Sourcing, Hexagonal (Ports & Adapters), Task-Based UI</p>
+							</div>
+						</div>
+						<div class="col-xl-4 col-sm-6">
+							<div class="service two">
+								<div class="service-icon">
+									<i class="flaticon-coding"></i>
+								</div>
+								<h4>Distributed Computing</h4>
+								<p>Microservices, Scaling, Performance, Container Orchestration</p>
+							</div>
+						</div>
+						<div class="col-xl-4 col-sm-6">
+							<div class="service three">
+								<div class="service-icon">
+									<i class="flaticon-analysis"></i>
+								</div>
+								<h4>Quality Code</h4>
+								<p>Design Patterns, Reusable/Clean/Self-documented Code, Error Handling</p>
+							</div>
+						</div>
+						<div class="col-xl-4 col-sm-6">
+							<div class="service">
+								<div class="service-icon">
+									<i class="flaticon-web"></i>
+								</div>
+								<h4>Testing Pyramid</h4>
+								<p>Unit Tests, Integration Tests (Contract), Component Tests, E2E Tests</p>
+							</div>
+						</div>
+						<div class="col-xl-4 col-sm-6">
+							<div class="service">
+								<div class="service-icon">
+									<i class="flaticon-user-experience"></i>
+								</div>
+								<h4>Documentation</h4>
+								<p>Features, API, Endpoints (parameters, request, response, exceptions)</p>
+							</div>
+						</div>
+						<div class="col-xl-4 col-sm-6">
+							<div class="service">
+								<div class="service-icon">
+									<i class="flaticon-technical-support"></i>
+								</div>
+								<h4>Team Collaboration</h4>
+								<p>Agile Methodologies, Pair Programming, Code Reviews, Guidance, Alignment</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="skills container">
+					<div class="main-title">
+						<h3>Professional Skills</h3>
+					</div>
+					<div class="skills-content professional-skills">
+						<div class="row">
+							<div class="col-xl-6 col-sm-12">
+								<h5>Programming Languages</h5>
+								<div class="progress-container"><h4>Python, Java, PHP, JavaScript</h4></div>
+							</div>
+							<div class="col-xl-6 col-sm-12">
+								<h5>Databases</h5>
+								<div class="progress-container"><h4>PostgreSQL, Neo4j, MySQL, MongoDB, Redis, Elasticsearch</h4></div>
+							</div>
+							<div class="col-xl-6 col-sm-12">
+								<h5>Backend Frameworks</h5>
+								<div class="progress-container"><h4>Django, FastAPI, Nameko, Flask, Falcon, Spring</h4></div>
+							</div>
+							<div class="col-xl-6 col-sm-12">
+								<h5>Development/Testing/Deployment</h5>
+								<div class="progress-container"><h4>Kubernetes, Docker, CI/CD, Version Control (Git)</h4></div>
+							</div>
+							<div class="col-xl-6 col-sm-12">
+								<h5>Programming Practices</h5>
+								<div class="progress-container"><h4>Testing Pyramid, TDD, BDD, Design patterns, SOLID Principles, Twelve Factors, Clean code</h4></div>
+							</div>
+							<div class="col-xl-6 col-sm-12">
+								<h5>Communication Protocols</h5>
+								<div class="progress-container"><h4>HTTP (Rest API), SOAP (XML), Sockets, RPC, GraphQL, AMQP Messaging (RabbitMQ)</h4></div>
+							</div>
+							<div class="col-xl-6 col-sm-12">
+								<h5>Microservices</h5>
+								<div class="progress-container"><h4>Eventual consistency, Composition, Orchestration</h4></div>
+							</div>
+							<div class="col-xl-6 col-sm-12">
+								<h5>Architectural Approaches</h5>
+								<div class="progress-container"><h4>DDD, Hexagonal Architecture, CQRS, Event Sourcing</h4></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ========== End Services ========== -->
+
+			</section>
+
+			<!-- ========== End About ========== -->
+
+			<!-- ========== Start Experience ========== -->
+
+			<section class="resume area-bg pt-page" data-id="experience">
+				<div class="container">
+					<div class="main-title">
+						<h2><span>Experience</span></h2>
+					</div>
+					<div class="resume-content">
+						<div class="row">
+							<div class="col-xl-12 col-md-12">
+								<div class="education">
+									<i class="fa fa-briefcase"></i>
+									<div class="resume-item">
+										<div class="resume-date">Sep 2020 - Present</div>
+										<span>PRODYNA AG</span>
+										<h4>Senior Software Engineer / Consultant</h4>
+										<ul>
+											<li><p>Consulting on Projects</p></li>
+											<li><p>Development, Testing, Documentation on features</p></li>
+											<li><p>Microservices Dockerization & Orchestration</p></li>
+										</ul>
+									</div>
+								</div>
+								<div class="education">
+									<i class="fa fa-briefcase"></i>
+									<div class="resume-item">
+										<div class="resume-date">Oct 2019 - Jul 2020</div>
+										<span>Hellenic Army</span>
+										<h4>Communication Center Operator</h4>
+										<ul>
+											<li><p>Developed/refactored/maintained software in the needs of the Unit</p></li>
+											<li><p>Received & delivered top-secret messages of military post office</p></li>
+											<li><p>Operated the transmission messages of military communication network</p></li>
+											<li><p>Trained and prepared new operators to be able to work on above tasks</p></li>
+										</ul>
+									</div>
+								</div>
+								<div class="education">
+									<i class="fa fa-briefcase"></i>
+									<div class="resume-item">
+										<div class="resume-date">Oct 2014 - May 2020</div>
+										<span>infoGRID# P.C.C</span>
+										<h4>Communication Center Operator</h4>
+										<ul>
+											<li><p>Shareholder, Full Stack Developer, Webmaster</p></li>
+											<li><p>Extended and improved parts for the enterprise products (ERP, CRM, HRM)</p></li>
+											<li><p>Developed, tested and deployed code for multiple combinatorial projects</p></li>
+											<li><p>Maintained servers, databases, and hardware, software infrastructure</p></li>
+										</ul>
+									</div>
+								</div>
+								<div class="education">
+									<i class="fa fa-briefcase"></i>
+									<div class="resume-item">
+										<div class="resume-date">Apr 2018 - Apr 2020</div>
+										<span>IN.TE.SO. Organization</span>
+										<h4>Tactical Member</h4>
+										<ul>
+											<li><p>Took part in organization’s scientific, research and volunteer actions</p></li>
+											<li><p>Provided organization, training and education to volunteer groups</p></li>
+											<li><p>Developed code in software, for non-profit actions of the organization</p></li>
+											<li><p>Provided professional services in situations of various scales and needs</p></li>
+										</ul>
+									</div>
+								</div>
+								<div class="education">
+									<i class="fa fa-briefcase"></i>
+									<div class="resume-item">
+										<div class="resume-date">Dec 2016 - Jun 2017</div>
+										<span>Municipal & Regional Theater of Sérrai</span>
+										<h4>Developer, Student Intern</h4>
+										<ul>
+											<li><p>Took part in the development and maintenance of e-ticket theater software</p></li>
+											<li><p>Deployed new programming features in the web application of the theater</p></li>
+											<li><p>Trained the basic operators for the administration of the theater platforms</p></li>
+										</ul>
+									</div>
+								</div>
+								<div class="education">
+									<i class="fa fa-briefcase"></i>
+									<div class="resume-item">
+										<div class="resume-date">Feb 2012 – Sep 2014</div>
+										<span>Self-employed</span>
+										<h4>Freelancer, Web Developer</h4>
+										<ul>
+											<li><p>Developed and maintained web sites, e-commerce and web applications</p></li>
+											<li><p>Deployed custom addons, modules, plugins, configs for various use cases</p></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- ========== End Experience ========== -->
+
+			<!-- ========== Start Education ========== -->
+
+			<section class="resume area-bg pt-page" data-id="education">
+				<div class="container">
+					<div class="main-title">
+						<h2><span>Education</span></h2>
+					</div>
+					<div class="resume-content">
+						<div class="row">
+							<div class="col-xl-12 col-md-12">
+								<div class="education">
+									<i class="fa fa-graduation-cap"></i>
+									<div class="resume-item">
+										<div class="resume-date">Jul 2020</div>
+										<span>International Hellenic University</span>
+										<h4>Master Postgraduate Specialization</h4>
+										<p>
+											Master Science Studies in Applied Informatics of Computer Engineering
+											and Communications Department, of International Hellenic University.
+										</p>
+										<br/><ul>
+											<li><p>Project I: Job aggregator web application</p></li>
+											<li><p>Project II: Multi Tenant SAAS Market with Android application</p></li>
+											<li><p>Master Thesis: Distributed system, that syncs contacts 
+											between different platforms, based on Microservices, Rest API, DDD, CQRS, ES</p></li>
+										</ul>
+									</div>
+								</div>
+								<div class="education">
+									<i class="fa fa-graduation-cap"></i>
+									<div class="resume-item">
+										<div class="resume-date">Sep 2018</div>
+										<span>Technological Educational Institute of Central Macedonia</span>
+										<h4>Bachelor Graduate Studies</h4>
+										<p>
+											Software Engineer of Technological Education, of Computer Engineering
+											Department of Technological Educational Institute of Central Macedonia.
+										</p>
+										<br/><ul>
+											<li><p>Project: Cloud Parking Management System</p></li>
+											<li><p>Thesis: Advanced Mathematics Learning Management 
+											System, with android client & web administration panel</p></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ========== End Education ========== -->
+
+			<!-- ========== Start Qualifications ========== -->
+
+			<section class="resume area-bg pt-page" data-id="qualifications">
+				<div class="container">
+					<div class="main-title">
+						<h2><span>Qualifications</span></h2>
+					</div>
+				</div>
+
+				<div class="resume container">
+					<div class="main-title" style="text-align: left; margin-bottom: 60px;">
+						<h3>Certifications</h3>
+					</div>
+					<div class="resume-content">
+						<div class="row">
+							<div class="col-xl-12 col-md-12">
+								<div class="education">
+									<i class="fa fa-file-text-o"></i>
+									<div class="resume-item">
+										<div class="resume-date">19 Mar 2021</div>
+										<span>Lightbend Academy</span>
+										<h4>CQRS & Event Sourcing</h4>
+										<p>
+											Command Query Responsibility Segregation (CQRS), and Event Sourcing (ES), are powerful tools.
+											They can make the difference between an application that evolves, and remains competitive,
+											or one that stagnates and falls into obscurity. This course will discuss the reasons we use CQRS/ES,
+											what benefits it provides us, but also what it will cost us to use. We will see how CQRS/ES can impact
+											the scalability, consistency, and availability of our application. Most importantly we will learn about
+											one of the key techniques that is used in building modern Reactive Microservices.
+											<br/><br/>
+											<a style="color: blue;" href="https://academy.lightbend.com/certificates/7ae88efd3d744aa3927ec7fa781e83a6" target="_blank">
+												> Certification url
+											</a>
+										</p>
+									</div>
+								</div>
+								<div class="education">
+									<i class="fa fa-file-text-o"></i>
+									<div class="resume-item">
+										<div class="resume-date">19 Mar 2021</div>
+										<span>Lightbend Academy</span>
+										<h4>Domain Driven Design</h4>
+										<p>
+											Domain Driven Design is a technique commonly used to build Reactive Systems. This course will introduce
+											the core elements of Domain Driven Design. It will also explain how those elements relate to Reactive Systems.
+											<br/><br/>
+											<a style="color: blue;" href="https://academy.lightbend.com/certificates/85f1136e4e074b3aac482ac154494ad2" target="_blank">
+												> Certification url
+											</a>
+										</p>
+									</div>
+								</div>
+								<div class="education">
+									<i class="fa fa-file-text-o"></i>
+									<div class="resume-item">
+										<div class="resume-date">8 Mar 2021</div>
+										<span>Scrum.org</span>
+										<h4>Professional Scrum Master I</h4>
+										<p>
+											People who have passed PSM I, achieving certification, demonstrate a fundamental level of Scrum mastery.
+											PSM I certificate holders prove that they understand Scrum as described in the Scrum Guide and how to
+											apply Scrum in Scrum Teams.  PSM I holders have a consistent terminology and approach to Scrum.
+											<br/><br/>
+											<a style="color: blue;" href="https://www.scrum.org/certificates/640160" target="_blank">
+												> Certification url
+											</a>
+										</p>
+									</div>
+								</div>
+								<div class="education">
+									<i class="fa fa-file-text-o"></i>
+									<div class="resume-item">
+										<div class="resume-date">5 Mar 2021</div>
+										<span>Neo4j</span>
+										<h4>Neo4j Certified Professional</h4>
+										<p>
+											With the Neo4j Certified Professional exam, experience and skills can be certified.
+											<br/><br/>
+											<a style="color: blue;" href="https://graphacademy.neo4j.com/certificates/03d017073aa08113c0920de6a3d6b2e93fb28ea31d813a766e8be6cc8e42ee36.pdf" target="_blank">
+												> Certification url
+											</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="resume container">
+					<div class="main-title" style="text-align: left; margin-bottom: 60px;">
+						<h3>Publications</h3>
+					</div>
+					<div class="resume-content">
+						<div class="row">
+							<div class="col-xl-12 col-md-12">
+								<div class="education">
+									<i class="fa fa-slideshare"></i>
+									<div class="resume-item">
+										<div class="resume-date">19 Mar 2017</div>
+										<span>Hellenic Mathematical Society</span>
+										<h4>Presenter and speaker</h4>
+										<p>Presented and spoken about my thesis in 9th international Mathematic Week 2017.</p>
+									</div>
+								</div>
+								<div class="education">
+									<i class="fa fa-slideshare"></i>
+									<div class="resume-item">
+										<div class="resume-date">14 Nov 2016</div>
+										<span>Lifelong Learning 2, C. Macedonia Region</span>
+										<h4>Presenter and speaker</h4>
+										<p>Took part and spoken in the Presentation of cosmoGRID# in Business Ideas, in the context of the transnational Program "PARK".</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="resume container">
+					<div class="main-title" style="text-align: left; margin-bottom: 60px;">
+						<h3>HONORS & AWARDS</h3>
+					</div>
+					<div class="resume-content">
+						<div class="row">
+							<div class="col-xl-12 col-md-12">
+								<div class="education">
+									<i class="fa fa-trophy"></i>
+									<div class="resume-item">
+										<div class="resume-date">Mar 2020</div>
+										<span>Hellenic Army</span>
+										<h4>Honorary Diploma for exceptional Military Services</h4>
+										<p>High professionalism and dedication to duty, ensuring the integrity and dignity of the Country.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ========== End Qualifications ========== -->
+
+			<!-- ========== Start Contact ========== -->
+
+			<section class="contact area-bg pt-page" data-id="contact">
+				<div class="container">
+					<div class="main-title">
+						<h2><span>Contact me</span></h2>
+					</div>
+					<div class="row">
+						<div class="col-xl-6 col-lg-12">
+							<div class="contact-boxes">
+								<div class="contact-box">
+									<h4 class="title-box">Location</h4>
+									<div class="content-box">
+										<p>
+											<i class="fa fa-home"></i>
+											Thessaloniki, Hellas
+										</p>
+									</div>
+								</div>
+								<div class="contact-box two">
+									<h4 class="title-box">Email</h4>
+									<div class="content-box">
+										<p>
+											<i class="fa fa-envelope"></i>
+											zdimitrakoudis[at]gmail.com
+										</p>
+									</div>
+								</div>
+								<div class="contact-box">
+									<h4 class="title-box">Website</h4>
+									<div class="content-box">
+										<p>
+											<i class="fa fa-globe"></i>
+											dimitrakoudis.github.io
+										</p>
+									</div>
+								</div>
+								<div class="contact-box">
+									<h4 class="title-box">Social Media</h4>
+									<div class="content-box">
+										<p>
+											<span><a href="https://www.linkedin.com/in/dimitrakoudis" target="_blank"><i class="fa fa-linkedin" style="font-size:20px;color:#000"></i></a></span>
+											<span><a href="https://github.com/dimitrakoudis" target="_blank"><i class="fa fa-github" style="font-size:20px;color:#000"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-12">
+							<img src="images/contact-me.jpg" class="img-fluid" alt="Project Image">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ========== End Contact ========== -->
+        </div>
+		
+		<!-- Project Content -->
+        <div class="project-content project1 container d-flex align-items-center">
+	        <div class="row">
+		        <div class="col-md-6 d-flex align-items-center">
+				    <div class="project-main-content">
+                        <img src="https://via.placeholder.com/500x500" class="img-fluid" alt="Project Image">
+                    </div>
+			    </div>
+			    <div class="col-md-6 d-flex align-items-center">
+					<div class="project-info">
+                        <h3>Image Format</h3>
+                        <ul class="project-details list-unstyled">
+                            <li><i class="fa fa-file-text-o">
+								</i>Project: <span>Website</span>
+                            </li>
+                            <li>
+								<i class="fa fa-user-o"></i>Client: <span>xyz</span>
+                            </li>
+                            <li>
+								<i class="fa fa-hourglass-o"></i>Duration: <span>xyz</span>
+                            </li>
+                            <li>
+								<i class="fa fa-code"></i>Technologies: <span>xyz</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="main-btn"><span><i class="fa fa-external-link"></i>preview</span></a>
+                    </div>
+			    </div>
+			</div>
+			<a href="#" class="close" onclick="document.getElementsByClassName('project1')[0].classList.remove('active');"><i class="fa fa-close"></i></a>
+        </div>
+		
+        <!-- ========== Js ========== -->
+
+        <!-- jQuery -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+		<!-- Slick Js -->
+        <script src="js/slick.min.js"></script>
+		<!-- Page Transitions Js -->
+        <script src="js/pagetransitions.js"></script>
+        <!-- Popper Js  -->
+    	<script src="js/popper.min.js"></script>
+        <!-- Bootstrap 4 Js -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- Count To Js -->
+        <script src="js/jquery.countTo.min.js"></script>
+		<!-- Circle Progress JS  -->
+        <script src="js/circle-progress.min.js"></script>
+        <!-- Custom Js -->
+        <script src="js/custom.js"></script>
+    </body>
+</html>
